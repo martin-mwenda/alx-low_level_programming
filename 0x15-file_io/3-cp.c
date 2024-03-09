@@ -63,8 +63,7 @@ int main(int argc, char *argv[])
 	src = open(argv[1], O_RDONLY);
 	read_bytes = read(src, buf, 1024);
 	dest = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	do
-	{
+	do {
 		if (src == -1 || read_bytes == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);

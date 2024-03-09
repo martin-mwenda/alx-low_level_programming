@@ -3,7 +3,7 @@
 
 /**
  * read_and_print_file - Reads a text file and prints its content to STDOUT.
- * file_path: Path to the text file to be read.
+ * @file_path: Path to the text file to be read.
  * @num_chars: Number of characters to be read and printed.
  * Return: Number of bytes read and printed (w) on success,
  *         0 on failure or if file_path is NULL.
