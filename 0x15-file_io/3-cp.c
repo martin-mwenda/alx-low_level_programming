@@ -2,15 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char *create_buffer(char *file);
-void close_file(int fd);
-
 /**
- * allocate_buffer - Allocates 1024 bytes for a buffer.
+ * create_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
  * Return: A pointer to the newly-allocated buffer.
  */
-char *allocate_buffer(char *file)
+char *create_buffer(char *file)
 {
 	char *buf;
 
@@ -24,10 +21,10 @@ char *allocate_buffer(char *file)
 }
 
 /**
- * close_fd - Closes file descriptors.
+ * close_file - Closes file descriptors.
  * @fd: The file descriptor to be closed.
  */
-void close_fd(int fd)
+void close_file(int fd)
 {
 	int close_result;
 
