@@ -4,7 +4,7 @@
 /**
  * print_dog - prints character name
  * @d: Pointer to be printer
- * If an element of the struct dog is NULL, the function prints (nil)
+ * If an element of the struct dog is NULL, the function print
  */
 void print_dog(struct dog *d)
 {
