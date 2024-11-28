@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - The entry point
  * Description: Prints the largest prime factor of the number 612852475143.

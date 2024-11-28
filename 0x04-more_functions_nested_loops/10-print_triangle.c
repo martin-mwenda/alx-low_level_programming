@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_triangle - Prints a right-angled triangle of '#' characters.
  * @size: The height and base size of the triangle.

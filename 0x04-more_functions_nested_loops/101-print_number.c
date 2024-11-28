@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_number - Prints an integer while preserving its sign.
  * @num: The integer to be printed.

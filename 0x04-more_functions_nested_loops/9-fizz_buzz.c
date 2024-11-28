@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - The entry point
  * Description: Prints the numbers from 1 to 100. For multiples of 3,
