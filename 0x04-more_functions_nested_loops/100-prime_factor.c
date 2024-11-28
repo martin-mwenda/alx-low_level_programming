@@ -3,9 +3,9 @@
 /**
  * main - The entry point
  * Description: Prints the largest prime factor of the number 612852475143.
- * The program first removes all factors of 2, then checks for odd factors 
- * starting from 3. It continues dividing the number by each factor until 
- * the largest prime factor is found. The result is printed to the standard output.
+ * The program first removes all factors of 2, then checks for odd factors
+ * starting from 3. It continues dividing the number by each factor until
+ * the largest prime factor is found. The result is printed to the stdo.
  * Return: Always 0.
  */
 int main(void)
