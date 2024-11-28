@@ -9,22 +9,21 @@
  * 
  * Return: Nothing.
  */
-void print_number(int num)
+void print_number(int n)
 {
-	unsigned int temp;
+	unsigned int t;
 
-	temp = num;
-	/*Check if the number is negative */
-	if (num < 0)
+	t = n;
+
+	if (n < 0)
 	{
-		num *= -1;
-		temp = num;
+		n *= -1;
+		t = n;
 		_putchar('-');
 	}
 
-	temp /= 10;
-	if (temp != 0)
-		/* Recursive function */
-		print_number(temp);
-	_putchar((unsigned int) num % 10 + '0');
+	t /= 10;
+	if (t != 0)
+		print_number(t);
+	_putchar((unsigned int) n % 10 + '0');
 }
