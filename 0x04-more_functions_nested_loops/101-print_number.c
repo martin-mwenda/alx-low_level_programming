@@ -2,9 +2,9 @@
 
 /**
  * print_number - Prints an integer while preserving its sign.
- * @num: The integer to be printed.
+ * @n: The integer to be printed.
  *
- * Description: This function prints a given integer number `num` to the
+ * Description: This function prints a given integer number `n` to the
  * standard output. If the number is negative, it first prints the minus
  * sign, then recursively prints the absolute value of the number.
  * The function handles both positive and negative integers.
